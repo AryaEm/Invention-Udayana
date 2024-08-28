@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>firstCommit</title>
-    <link rel="stylesheet" href="/tes/tes.css" />
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -13,16 +13,20 @@
   </head>
 
   <body>
-    <nav>
-      <div class="brand-name">
-        <p style="color: white">Gallery<span>Nesia</span>.</p>
+    <nav
+      class="w-full h-[65px] flex gap-2.5 items-center justify-beetwen fixed z-999 bg-black/14 backdrop-blur"
+    >
+      <div class="ml-36 cursor-pointer">
+        <p class="text-white text-2xl font-semibold tracking-tighter">
+          Explore<span class="text-emerald-800">Nusa</span>.
+        </p>
       </div>
 
-      <div id="menu-icon" class="menu-icon">
+      <div id="menu-icon" class="hidden">
         <i class="fa-solid fa-bars"></i>
       </div>
 
-      <ul id="menu-list" class="list hidden">
+      <ul id="menu-list" class="">
         <li><a href="#home">Home</a></li>
         <li><a href="#collection">Collection</a></li>
         <li><a href="#about">About Us</a></li>
@@ -30,62 +34,35 @@
         <li><a href="#contact">Cotact</a></li>
       </ul>
 
-      <div class="search-bar">
-        <div class="search-wrap">
-          <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24">
-            <path stroke="white" stroke-linecap="round" stroke-width="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
-          </svg>
-          
-          <input class="input" type="search" placeholder="Search" />
-        </div>
-      </div>
-    </nav>
-
-    <header>
-      <img
-        src="/assets/Untitled design (1).svg"
-        alt="The-God-Wisnu-riding-the-Garuda-at-(GWK)-Garuda-Wisnu-Kencana-Cultural-Park(canva)"
-      />
-      <div class="header-content">
-        <h2>
-          Explore <br /><span>Indonesia's</span><br />
-          Cultural Heritage
-        </h2>
-        <button>
-          <!-- flowbite icon -->
+      <div class="w-max h-full mr-36 flex justify-center">
+        <div
+          class="flex leading-7 items-center relative max-w-46 transition-all duration-200 ease"
+        >
           <svg
-            class="w-6 h-6 text-gray-800 dark:text-white"
+            class="absolute "
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="none"
+            width="26"
+            height="26"
             viewBox="0 0 24 24"
           >
             <path
-              stroke="currentColor"
+              class="stroke"
+              stroke="white"
               stroke-linecap="round"
-              stroke-linejoin="round"
               stroke-width="2"
-              d="m19 9-7 7-7-7"
+              d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"
             />
           </svg>
-        </button>
-      </div>
-    </header>
 
-    <main>
-      <section class="collection">
-        <h2>Featured Collections</h2>
-        <div class="collection-list">
-          <div class="collection1"></div>
-          <div class="collection2"></div>
-          <div class="collection3"></div>
-          <div class="collection4"></div>
-          <div class="collection5"></div>
+          <input
+            class="width-full height-10 leading-7 py-10 border-2 border-solid border-[#f5f5f5] rounded-full outline-none bg-transparent text-gray-800 ransition-all duration-200 ease input placeholder:text-[#f5f5f5] placeholder:transition-all placeholder:duration-200 placeholder:ease focus:outline-none focus:border-[#014f503a] focus:bg-white focus:shadow-[0_0_0_4px_rgb(247_127_0/_10%)] focus:placeholder-[#0d0c22]"
+            type="search"
+            placeholder="Search"
+          />
         </div>
-      </section>
-    </main>
+      </div>
+    </nav>
 
     <script src="/tes/tes.js"></script>
   </body>
