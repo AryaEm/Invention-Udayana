@@ -474,19 +474,19 @@ main .virtual-museum .vm-wrap a {
   color: #014f50;
 }
 
-.education {
+.wrapper {
   width: 100%;
   height: fit-content;
 }
 
-.education .resource {
+.wrapper .resource {
   width: 100%;
   height: 620px;
   background-color: #014f50;
   display: flex;
 }
 
-.education .resource .resource-photo {
+.wrapper .resource .resource-photo {
   width: 50%;
   height: 100%;
   display: flex;
@@ -495,25 +495,25 @@ main .virtual-museum .vm-wrap a {
   position: relative;
 }
 
-.education .resource .resource-photo .r-main-photo{
+.wrapper .resource .resource-photo .r-main-photo{
   width: 340px;
   height: 380px;
 }
 
-.education .resource .resource-photo .r-main-photo img {
+.wrapper .resource .resource-photo .r-main-photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.434);
 }
 
-.education .resource .resource-photo .r-photo-wrap {
+.wrapper .resource .resource-photo .r-photo-wrap {
   width: 340px;
   height: 380px;
   position: absolute;
 }
 
-.education .resource .resource-photo .r-photo-wrap .r-photo {
+.wrapper .resource .resource-photo .r-photo-wrap .r-photo {
   position: absolute;
   width: 130px;
   height: 130px;
@@ -523,7 +523,7 @@ main .virtual-museum .vm-wrap a {
   rotate: 10deg;
 }
 
-.education .resource .resource-photo .r-photo-wrap .r-photo img {
+.wrapper .resource .resource-photo .r-photo-wrap .r-photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -531,7 +531,7 @@ main .virtual-museum .vm-wrap a {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.434);
 }
 
-.education .resource .resource-photo .r-photo-wrap .r-photo1 {
+.wrapper .resource .resource-photo .r-photo-wrap .r-photo1 {
   position: absolute;
   width: 150px;
   height: 150px;
@@ -541,7 +541,7 @@ main .virtual-museum .vm-wrap a {
   rotate: -8deg;
 }
 
-.education .resource .resource-photo .r-photo-wrap .r-photo1 img {
+.wrapper .resource .resource-photo .r-photo-wrap .r-photo1 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -549,7 +549,7 @@ main .virtual-museum .vm-wrap a {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.434);
 }
 
-.education .resource .resource-photo .r-photo-wrap .r-photo2 {
+.wrapper .resource .resource-photo .r-photo-wrap .r-photo2 {
   position: absolute;
   width: 260px;
   height: 160px;
@@ -558,7 +558,7 @@ main .virtual-museum .vm-wrap a {
   right: -120px;
 }
 
-.education .resource .resource-photo .r-photo-wrap .r-photo2 img {
+.wrapper .resource .resource-photo .r-photo-wrap .r-photo2 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -566,7 +566,7 @@ main .virtual-museum .vm-wrap a {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.434);
 }
 
-.education .resource .resource-content {
+.wrapper .resource .resource-content {
   display: flex;
   flex-direction: column;
   align-items: end;
@@ -575,7 +575,7 @@ main .virtual-museum .vm-wrap a {
   color: #f5f5f5;
 }
 
-.education .resource .resource-content .src-wrap {
+.wrapper .resource .resource-content .src-wrap {
   width: 80%;
   height: 80%;
   display: flex;
@@ -583,14 +583,14 @@ main .virtual-museum .vm-wrap a {
   justify-content: center;
 }
 
-.education .resource .resource-content .src-wrap h2 {
+.wrapper .resource .resource-content .src-wrap h2 {
   margin-left: 50px;
   margin-bottom: 20px;
   color: #f5f5f5;
   font-size: 2rem;
 }
 
-.education .resource .resource-content .src-wrap p { 
+.wrapper .resource .resource-content .src-wrap p { 
   font-family: "Gilroy-Regular";
   letter-spacing: 1px;
   opacity: 0.7;
@@ -598,7 +598,7 @@ main .virtual-museum .vm-wrap a {
   margin: 0 0 0 50px;
 }
 
-.education .resource .resource-content .src-wrap a {
+.wrapper .resource .resource-content .src-wrap a {
   margin-top: 20px;
   margin-left: 50px;
   color: #f5f5f5;
@@ -606,11 +606,11 @@ main .virtual-museum .vm-wrap a {
   font-size: 0.9rem;
 }
 
-.education .resource .resource-content .src-wrap i {
+.wrapper .resource .resource-content .src-wrap i {
   margin: 0 5px;
 }
 
-.education .testi {
+.wrapper .testi {
   height: fit-content;
   position: relative;
   margin-top: 100px;
@@ -621,7 +621,7 @@ main .virtual-museum .vm-wrap a {
   align-items: center;
 }
 
-.education .testi .t-head {
+.wrapper .testi .t-head {
   width: 100%;
   height: fit-content;
   color: #333333;
@@ -631,18 +631,18 @@ main .virtual-museum .vm-wrap a {
   align-items: center;
 }
 
-.education .testi .t-head h2 {
+.wrapper .testi .t-head h2 {
   font-size: 2rem;
   font-family: "Gilroy-bold";
 }
 
-.education .testi .t-head p {
+.wrapper .testi .t-head p {
   font-size: 1.2rem;
   margin: 12px 0;
   width: 50%;
 }
 
-.education .testi .t-cards {
+.wrapper .testi .t-cards {
   width: 100%;
   height: fit-content;
   display: grid;
@@ -652,9 +652,9 @@ main .virtual-museum .vm-wrap a {
   padding: 40px 0;
 }
 
-.education .testi .t-card1,
-.education .testi .t-card2,
-.education .testi .t-card3 {
+.wrapper .testi .t-card1,
+.wrapper .testi .t-card2,
+.wrapper .testi .t-card3 {
   grid: 1;
   height: 100%;
   width: 100%;
@@ -666,9 +666,9 @@ main .virtual-museum .vm-wrap a {
   border: 2px solid #E7E9ED;
 }
 
-.education .testi .t-card1 .t-profil,
-.education .testi .t-card2 .t-profil,
-.education .testi .t-card3 .t-profil {
+.wrapper .testi .t-card1 .t-profil,
+.wrapper .testi .t-card2 .t-profil,
+.wrapper .testi .t-card3 .t-profil {
   border: 1px solid;
   height: 70px;
   width: 70px;
@@ -676,25 +676,25 @@ main .virtual-museum .vm-wrap a {
   margin: 0 30px;
 }
 
-.education .testi .t-card1 .t-comment,
-.education .testi .t-card2 .t-comment,
-.education .testi .t-card3 .t-comment  {
+.wrapper .testi .t-card1 .t-comment,
+.wrapper .testi .t-card2 .t-comment,
+.wrapper .testi .t-card3 .t-comment  {
   margin: 0 30px;
   height: 50%;
 }
 
-.education .testi .t-card1 .t-comment p,
-.education .testi .t-card2 .t-comment p,
-.education .testi .t-card3 .t-comment p {
+.wrapper .testi .t-card1 .t-comment p,
+.wrapper .testi .t-card2 .t-comment p,
+.wrapper .testi .t-card3 .t-comment p {
   padding: 20px 0;
   line-height: 26px;
   color: #333333;
   font-size: 1rem;
 }
 
-.education .testi .t-card1 .t-name,
-.education .testi .t-card2 .t-name,
-.education .testi .t-card3 .t-name {
+.wrapper .testi .t-card1 .t-name,
+.wrapper .testi .t-card2 .t-name,
+.wrapper .testi .t-card3 .t-name {
   margin: 0 30px;
   height: 12%;
   display: flex;
@@ -702,16 +702,16 @@ main .virtual-museum .vm-wrap a {
   justify-content: space-between;
 }
 
-.education .testi .t-card1 .t-name h2,
-.education .testi .t-card2 .t-name h2,
-.education .testi .t-card3 .t-name h2 {
+.wrapper .testi .t-card1 .t-name h2,
+.wrapper .testi .t-card2 .t-name h2,
+.wrapper .testi .t-card3 .t-name h2 {
   color: #333333;
   font-size: 1.2rem;
 }
 
-.education .testi .t-card1 .t-name p,
-.education .testi .t-card2 .t-name p,
-.education .testi .t-card3 .t-name p {
+.wrapper .testi .t-card1 .t-name p,
+.wrapper .testi .t-card2 .t-name p,
+.wrapper .testi .t-card3 .t-name p {
   color: #000;
   opacity: 50%;
   font-size: 1rem;
@@ -789,4 +789,57 @@ main .virtual-museum .vm-wrap a {
  color: #333333;
  border-bottom: 2px solid #014f50;
  font-size: 0.9rem;
+}
+
+footer {
+  width: 100%;
+  height: fit-content;
+  margin-top: 120px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+}
+
+footer .f-wrap {
+  width: 80%;
+  height: 350px;
+  border: 1px solid red;
+  display: grid;
+  grid-template-rows: repeat(1, 300px);
+  grid-template-columns: 1fr 200px 200px 200px 200px;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+footer .f-wrap div {
+  border: 1px solid;
+  color: #333333;
+}
+
+footer .f-wrap h2 {
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 1.6rem;
+}
+
+footer .f-wrap div p {
+  font-size: 0.9rem;
+  margin-top: 28px;
+  line-height: 28px;
+}
+
+footer .f-wrap div h2 span {
+  color: #014f50;
+} 
+
+footer .f-wrap div p span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer .f-wrap .f-contact .f-sosmed {
+  border: 1px solid cyan;
+  width: 100%;
+  height: 80px;
+  margin-top: 30px;
+  display: flex;
 }
