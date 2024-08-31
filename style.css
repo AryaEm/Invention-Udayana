@@ -24,6 +24,7 @@ nav {
 
 nav.scrolled {
   background-color: #f5f5f5;
+  box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.25);
 }
 
 nav .brand-name {
@@ -565,6 +566,7 @@ main .virtual-museum .vm-wrap a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.30);
 }
 
 .wrapper .resource .resource-photo .r-photo-wrap {
@@ -588,6 +590,7 @@ main .virtual-museum .vm-wrap a {
   height: 100%;
   object-fit: cover;
   border-radius: 2px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.30);
 }
 
 .wrapper .resource .resource-photo .r-photo-wrap .r-photo1 {
@@ -605,6 +608,7 @@ main .virtual-museum .vm-wrap a {
   height: 100%;
   object-fit: cover;
   border-radius: 2px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.30);
 }
 
 .wrapper .resource .resource-photo .r-photo-wrap .r-photo2 {
@@ -621,6 +625,7 @@ main .virtual-museum .vm-wrap a {
   height: 100%;
   object-fit: cover;
   border-radius: 2px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.30);
 }
 
 .wrapper .resource .resource-content {
