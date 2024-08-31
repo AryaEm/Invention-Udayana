@@ -261,7 +261,8 @@ main .collection .collection-list {
   display: grid;
   grid-template-rows: repeat(3, 100px);
   grid-template-columns: repeat(4, 1fr);
-  gap: 12px;2}
+  gap: 12px;
+}
 
 main .collection .collection-list .collection1 {
   grid-row: 1 / 4;
