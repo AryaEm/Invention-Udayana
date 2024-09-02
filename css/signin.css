@@ -24,7 +24,7 @@ header h2 span {
 }
 
 header a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .form {
@@ -41,7 +41,7 @@ header a {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-top: 20px;
+  margin: 25px;
   color: #333333;
 }
 
@@ -62,7 +62,7 @@ header a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
 .form-wrap {
@@ -159,7 +159,8 @@ header a {
 .form-wrap p {
   font-size: 0.8rem;
   text-align: start;
-  align-self: flex-start;
+  align-self: flex-end;
+  cursor: pointer;
 }
 
 .data .submit-btn {
