@@ -6,6 +6,10 @@
   font-family: "Gilroy-Medium", sans-serif;
 }
 
+body {
+  overflow: hidden;
+}
+
 header {
   width: 160px;
   height: 40px;
@@ -25,6 +29,7 @@ header h2 span {
 
 header a {
   text-decoration: none;
+  color: inherit;
 }
 
 .form {
@@ -41,7 +46,7 @@ header a {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0;
   color: #333333;
 }
 
@@ -77,7 +82,7 @@ header a {
 
 .form-wrap > label {
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #333333;
   text-align: start;
   align-self: flex-start;
@@ -177,8 +182,8 @@ header a {
   position: relative;
   cursor: pointer;
   overflow: hidden;
-  border: 2px solid var(--color);
   transition: all 500ms;
+  border: none;
   z-index: 1;
   font-size: 0.9rem;
   border-radius: 12px;
@@ -246,7 +251,6 @@ header a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid;
 }
 
 .log-option .google,
@@ -292,7 +296,7 @@ header a {
 }
 
 footer {
-  position: absolute;
+  position: sticky;
   bottom: 0;
   height: 50px;
   width: 100%;
@@ -306,4 +310,40 @@ footer p {
   color: #666666;
   cursor: pointer;
   font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 850px) {
+  .form .head {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .form .head p {
+    font-size: 1rem;
+  }
+
+  .form-wrap > input {
+    height: 50px;
+  }
+
+  .form-wrap > label {
+    font-size: 1.2rem;
+  }
+
+  .form-wrap > select {
+    height: 50px;
+  }
+
+  footer {
+    display: none;
+  }
+
+.log-option .button {
+  height: 50px;
+}
+
+.data .submit-btn button {
+  height: 50px;
+}
+
 }
