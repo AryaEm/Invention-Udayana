@@ -1137,10 +1137,32 @@ footer .f-wrap .f-legal h2 {
     width: 70%;
     height: 100dvh;
     animation: appear 0.2s linear;
+    display: flex;
+    padding-top: 80px;
   }
 
   .sidebar .close{
-    text-align: right;
+    text-align: start;
+    width: 100%;
+  }
+
+  .sidebar .close ul {
+    list-style: none;
+  }
+
+  .sidebar .close ul li a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    padding: 10px 8px;
+  }
+
+  .sidebar .close i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
   }
 
   @keyframes appear {
@@ -1692,5 +1714,15 @@ footer .f-wrap .f-legal h2 {
 
   .cta .cta-wrap .cta-content .cta-link a i {
     rotate: 0deg;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  nav .menu-icon {
+    margin-right: 20px;
+  }
+
+  nav .brand-name {
+    margin-left: 20px;
   }
 }
