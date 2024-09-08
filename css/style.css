@@ -1325,6 +1325,10 @@ footer .f-wrap .f-legal h2 {
     margin-top: 80px;
   }
 
+  header .header-content button {
+    display: none;
+  }
+
   main .virtual-museum p {
     width: 70%;
     text-align: center;
